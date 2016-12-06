@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# This script is based on the article https://coderwall.com/p/hjy-6q/manage-version-changes-and-git-tags-with-a-bash-script
+
 # works with a file called VERSION in the current directory,
 # the contents of which should be a semantic version number
 # such as "1.2.3"
