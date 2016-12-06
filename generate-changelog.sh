@@ -15,6 +15,8 @@
 # a file called CHANGES (under the title of the new version
 # number) and create a GIT tag.
 
+# TODO: add variables for CHANGES and VERSION file names, so it is easier to change the file names
+
 if [ -f VERSION ]; then
     BASE_STRING=`cat VERSION`
     BASE_LIST=(`echo $BASE_STRING | tr '.' ' '`)
